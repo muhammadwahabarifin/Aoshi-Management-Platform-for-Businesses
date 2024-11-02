@@ -14,7 +14,6 @@ import { ThemeProvider } from "./providers/theme-provider";
 // import PricingCards
 
 // BLOGS
-import Blogs from "./blog/blogs";
 
 export {
   Icons,
@@ -23,5 +22,4 @@ export {
   Navbar,
   Footer,
   ThemeProvider,
-  Blogs,
 };
