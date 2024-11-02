@@ -47,7 +47,7 @@ const Navbar = () => {
                     <div className="flex items-center space-x-12">
                         <Link href="/#home">
                             <span className="text-lg font-medium font-heading !leading-none">
-                                Aoshi.AI
+                                Aoshii
                             </span>
                         </Link>
 
@@ -166,6 +166,7 @@ const ListItem = React.forwardRef<
         </li>
     )
 })
+
 ListItem.displayName = "ListItem"
 
 export default Navbar

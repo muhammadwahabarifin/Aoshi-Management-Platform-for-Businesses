@@ -193,7 +193,7 @@ const HomePage = () => {
             </MaxWidthWrapper>
 
             {/* Reviews Section */}
-            {/* <MaxWidthWrapper className="py-10">
+            <MaxWidthWrapper className="py-10">
                 <AnimationContainer delay={0.1}>
                     <div className="flex flex-col items-center lg:items-center justify-center w-full py-8 max-w-xl mx-auto">
                         <MagicBadge title="Our Customers" />
@@ -201,7 +201,7 @@ const HomePage = () => {
                             What our users are saying
                         </h2>
                         <p className="mt-4 text-center lg:text-center text-lg text-muted-foreground max-w-lg">
-                            Here&apos;s what some of our users have to say about Linkify.
+                            Here&apos;s what some of our users have to say about Aoshii.
                         </p>
                     </div>
                 </AnimationContainer>
@@ -291,10 +291,10 @@ const HomePage = () => {
                         ))}
                     </div>
                 </div>
-            </MaxWidthWrapper> */}
+            </MaxWidthWrapper>
 
             {/* CTA Sections */}
-            {/* <MaxWidthWrapper className='mt-20 max-w-[100vw] overflow-x-hidden scrollbar-hide'>
+            <MaxWidthWrapper className='mt-20 max-w-[100vw] overflow-x-hidden scrollbar-hide'>
                 <AnimationContainer delay={0.1}>
                     <LampContainer>
                         <div className='flex flex-col items-center justify-center relative w-full text-center'>
@@ -313,7 +313,7 @@ const HomePage = () => {
                         </div>
                     </LampContainer>
                 </AnimationContainer>
-            </MaxWidthWrapper> */}
+            </MaxWidthWrapper>
         </div>
     )
 }

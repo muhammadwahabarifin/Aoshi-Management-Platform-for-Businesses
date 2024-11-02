@@ -3,7 +3,7 @@ import { Metadata } from "next";
 export const SITE_CONFIG = {
   title: {
     default: "The Link Management Platform for Businesses",
-    template: "%s | Aoshi",
+    template: "%s | Aoshi - AI",
   },
   description:
     "is the link management platform for businesses. It helps you build, brand, and track your links.",
