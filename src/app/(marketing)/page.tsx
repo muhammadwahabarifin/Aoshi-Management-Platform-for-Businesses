@@ -33,7 +33,7 @@ const HomePage = () => {
                                 <ArrowRightIcon className="ml-1 size-3 transition-transform duration-300 ease-in-out group-hover:translate-x-0.5" />
                             </span>
                         </button>
-                        <h1 className="text-foreground text-center py-6 text-7xl font-medium tracking-normal text-balance sm:text-6xl md:text-7xl lg:text-9xl !leading-[1.15] w-full font-heading">
+                        <h1 className="text-foreground text-center py-6 text-7xl font-medium tracking-normal text-balance sm:text-5xl md:text-6xl lg:text-9xl !leading-[1.15] w-full font-heading">
                             Smart Links with <span className="text-transparent bg-gradient-to-r from-violet-500 to-fuchsia-500 bg-clip-text inline-block">
                                Good Precision
                             </span>
@@ -128,11 +128,11 @@ const HomePage = () => {
             </MaxWidthWrapper>
 
             {/* Process Section */}
-            {/* <MaxWidthWrapper className='py-10'>
+            <MaxWidthWrapper className='py-10'>
                 <AnimationContainer delay={0.1}>
                     <div className='flex flex-col items-center lg:items-center justify-center w-full py-8 max-w-xl mx-auto'>
                         <MagicBadge title='The Process' />
-                        <h2 className='text-center lg:text-center text-3xl md:text-5xl !leading-[1.1] font-medium font-heading text-foreground mt-6'>
+                        <h2 className='text-center capitalize lg:text-center text-2xl md:text-4xl !leading-[1.1] font-medium font-heading text-foreground mt-6'>
                             Follow these simple steps to optimize, organize, and share your links with ease.
                         </h2>
                     </div>
@@ -162,7 +162,7 @@ const HomePage = () => {
                         </AnimationContainer>
                     ))}
                 </div>
-            </MaxWidthWrapper> */}
+            </MaxWidthWrapper>
 
             {/* Pricing Section */}
             {/* <MaxWidthWrapper className='py-10'>
