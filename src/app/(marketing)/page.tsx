@@ -33,9 +33,9 @@ const HomePage = () => {
                                 <ArrowRightIcon className="ml-1 size-3 transition-transform duration-300 ease-in-out group-hover:translate-x-0.5" />
                             </span>
                         </button>
-                        <h1 className="text-foreground text-center py-6 text-5xl font-medium tracking-normal text-balance sm:text-6xl md:text-7xl lg:text-8xl !leading-[1.15] w-full font-heading">
-                            Smart Links with <span className="text-transparent bg-gradient-to-r from-violet-500 to-fuchsia-500 bg-clip-text inline-bloc">
-                                Precision
+                        <h1 className="text-foreground text-center py-6 text-7xl font-medium tracking-normal text-balance sm:text-6xl md:text-7xl lg:text-9xl !leading-[1.15] w-full font-heading">
+                            Smart Links with <span className="text-transparent bg-gradient-to-r from-violet-500 to-fuchsia-500 bg-clip-text inline-block">
+                               Good Precision
                             </span>
                         </h1>
                         <p className="mb-12 text-lg tracking-tight text-muted-foreground md:text-xl text-balance">
@@ -77,11 +77,11 @@ const HomePage = () => {
             </MaxWidthWrapper >
 
             {/* Companies Section */}
-            {/* <MaxWidthWrapper>
+            <MaxWidthWrapper>
                 <AnimationContainer delay={0.4}>
                     <div className="py-14">
                         <div className="mx-auto px-4 md:px-8">
-                            <h2 className="text-center text-sm font-medium font-heading text-neutral-400 uppercase">
+                            <h2 className="text-center text-md font-medium font-heading text-neutral-400 capitalize">
                                 Trusted by the best in the industry
                             </h2>
                             <div className="mt-8">
@@ -103,10 +103,10 @@ const HomePage = () => {
                         </div>
                     </div>
                 </AnimationContainer>
-            </MaxWidthWrapper> */}
+            </MaxWidthWrapper>
 
             {/* Features Section */}
-            {/* <MaxWidthWrapper className='py-10'>
+            <MaxWidthWrapper className='py-10'>
                 <AnimationContainer delay={0.1}>
                     <div className='flex flex-col w-full items-center lg:items-center justify-center py-8'>
                         <MagicBadge title='Features' />
@@ -125,7 +125,7 @@ const HomePage = () => {
                         ))}
                     </BentoGrid>
                 </AnimationContainer>
-            </MaxWidthWrapper> */}
+            </MaxWidthWrapper>
 
             {/* Process Section */}
             {/* <MaxWidthWrapper className='py-10'>

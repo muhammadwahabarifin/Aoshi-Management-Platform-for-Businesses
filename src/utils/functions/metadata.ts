@@ -49,5 +49,5 @@ export const SITE_CONFIG = {
       },
     ],
   },
-  metadatabase: new URL("https://astra-app.vercel.app"),
+  metadatabase: new URL("https://aoshi-management-platform-for-businesses.vercel.app/"),
 };
