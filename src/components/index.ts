@@ -13,6 +13,9 @@ import { ThemeProvider } from "./providers/theme-provider";
 // pricing
 // import PricingCards
 
+// BLOGS
+import Blogs from "./blog/blogs";
+
 export {
   Icons,
   MaxWidthWrapper,
@@ -20,4 +23,5 @@ export {
   Navbar,
   Footer,
   ThemeProvider,
+  Blogs,
 };

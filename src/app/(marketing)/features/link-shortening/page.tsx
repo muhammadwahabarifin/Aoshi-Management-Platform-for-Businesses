@@ -49,7 +49,7 @@ const LinkShorteningPage = () => {
                 <AnimationContainer delay={0.3} className="w-full">
                     <div className="py-14">
                         <div className="mx-auto px-4 md:px-8">
-                            <h2 className="text-center text-sm font-medium font-heading text-neutral-400 uppercase">
+                            <h2 className="text-center text-sm font-medium font-heading capitalize text-neutral-400">
                                 Trusted by the best in the industry
                             </h2>
                             <div className="mt-8">
@@ -76,7 +76,7 @@ const LinkShorteningPage = () => {
                 <AnimationContainer delay={0.4} className="w-full">
                     <LampContainer className="max-w-2xl mx-auto">
                         <div className="flex flex-col items-center justify-center relative w-full text-center">
-                            <h2 className="bg-gradient-to-br from-neutral-300 to-neutral-500 py-4 bg-clip-text text-center text-4xl font-semibold font-heading tracking-tight text-transparent md:text-7xl mt-8">
+                            <h2 className="bg-gradient-to-br capitalize from-neutral-300 to-neutral-500 py-4 bg-clip-text text-center text-4xl font-semibold font-heading tracking-tight text-transparent md:text-7xl mt-8">
                                 Powerup your link strategy
                             </h2>
                             <p className="text-muted-foreground mt-6 max-w-lg mx-auto text-base md:text-lg">
