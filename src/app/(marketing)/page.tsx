@@ -165,7 +165,7 @@ const HomePage = () => {
             </MaxWidthWrapper>
 
             {/* Pricing Section */}
-            {/* <MaxWidthWrapper className='py-10'>
+            <MaxWidthWrapper className='py-10'>
                 <AnimationContainer delay={0.1}>
                     <div className='flex flex-col items-center lg:items-center justify-center w-full py-8 max-w-xl mx-auto'>
                         <MagicBadge title='Simple Pricing' />
@@ -190,7 +190,7 @@ const HomePage = () => {
                         </div>
                     </div>
                 </AnimationContainer>
-            </MaxWidthWrapper> */}
+            </MaxWidthWrapper>
 
             {/* Reviews Section */}
             {/* <MaxWidthWrapper className="py-10">
